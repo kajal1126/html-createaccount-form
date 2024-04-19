@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <style>
+    button{
+      background-color: rgb(245, 245, 5);
+      width: 310px;
+      height: 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: none;
+    }
+    button a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    input{
+      width: 300px;
+      height: 19px;
+      cursor: pointer;
+    }
+    label{
+      font-size: 13px;
+    }
+    p{
+      font-size: 13px;
+    }
+    h1{
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+    img{
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+    input:hover{
+      border: 1px solid black;
+      box-shadow: 1px 1px 2px 2px rgb(99, 189, 241);
+
+    }
+    
+  </style>
+</head>
+<body>
+
+  
+  <fieldset style="width: 320px; border:2px solid lightgray; border-radius: 13px; margin: 0 auto;" >
+    <form action="/" method="get">
+      <img src="img/amazon.png" alt="images" width="300px" height="90vh">
+      <h1>Create account</h1>
+       <!-- <label for="name">Name:</label> -->
+        <label for="Your name" style="margin-bottom: 10px;"><b>Your name</b></label><br>
+        <input type="text" name="" id="name" placeholder="First and last name.."><br><br>
+        <label for="mobile no."><b>Mobile number or email</b></label><br>
+        <input type="number" name="" id="number"><br><br>
+        <label for="password"><b>Password</b></label><br>
+        <input type="password" name="" id="" placeholder="At least 6 characters" maxlength="6"><br>
+        <label style="color:gray"><i style="color: rgb(9, 119, 122);">i</i> password must be at least 6 characters.</label><br><br>
+        <label for="Re-enter Password"><b>Re-enter Password</b></label><br>
+        <input type="password" name="" id=""><br><br>
+        <button><a href="#" >Continue</a></button><br><br>
+        <p>by creating an account, you agree to Amazon's <br>
+        <a href="#">Condition of Use</a>and <a href="#">Privacy Notice.</a></p>
+        <p>Already have an account? <a href="#">Sign in </a><br>
+        Buying for Work? <a href="#">Create a free bussines account. </a></p>
+
+    </form>
+  </fieldset>
+
+  </div>
+</body>
+</html>
